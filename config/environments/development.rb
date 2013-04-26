@@ -37,4 +37,5 @@ Omrails::Application.configure do
   
   config.action_mailer.default_url_options = { :host => 'localhost:3000' }
 
+  Paperclip.options[:command_path] = "/c/Windows/system32/"
 end

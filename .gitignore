@@ -17,3 +17,6 @@ doc/
 *.swp
 .project
 .idea
+
+#ignore paperclip images
+/public/system
