@@ -20,3 +20,6 @@ doc/
 
 #ignore paperclip images
 /public/system
+
+#ignore sampleFolder
+/sampleFolder
