@@ -5,7 +5,7 @@
 	    <%= pin.description %>
 	    </p>
 	    <p>
-	    	<strong> Dodane przez: <%= pin.user.name %></strong>
+	    	<strong> Dodane przez: <%= link_to pin.user.name, pin.user %></strong>
 	    </p>
 	    <%= link_to 'Show', pin %>
 	    <% if current_user == pin.user %>
